@@ -10,8 +10,7 @@ export class AppComponent {
   title = 'push-notification';
   message: any;
 
-  constructor(private messagingService: MessagingService) {
-    
+  constructor(private messagingService: MessagingService) {    
   }
   
   ngOnInit() {
